@@ -7,45 +7,6 @@ library(ggplot2)
 my_name <- NULL
 my_bd <- NULL
 
-my_name[13] <- "Joseph"
-my_bd[13] <- "01/08"
-
-my_name[12] <- "Stacy"
-my_bd[12] <- "02/17"
-
-my_name[11] <- "Mary-Alice"
-my_bd[11] <- "07/29"
-
-my_name[10] <- "Aleks"
-my_bd[10] <- "01/13"
-
-my_name[9] <- "Victoria"
-my_bd[9] <- "08/11"
-
-my_name[8] <- "Jenny"
-my_bd[8] <- "06/21"
-
-my_name[7] <- "Diego"
-my_bd[7] <- "10/03"
-
-my_name[6] <- "Tugba"
-my_bd[6] <- "05/02"
-
-my_name[5] <- "Zafiro"
-my_bd[5] <- "09/04"
-
-my_name[4] <- "cyn"
-my_bd[4] <- "10/17"
-
-my_name[3] <- "Beyonce Knowles-Carter"
-my_bd[3] <- "09/04"
-
-my_name[1] <- "Michael"
-my_bd[1] <- "12/15"
-
-my_name[2] <- "Daniel"
-my_bd[2] <- "12/14"
-
 
 
 
