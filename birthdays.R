@@ -1,14 +1,20 @@
 library(ggplot2)
+library(magrittr)
 
 # What is your name? 
 Grace Morgan 
 
 # When is your birthdate? Only Month and day.
-05/18
-# Format "Month/date". For example for date "January 9th", we write "01/09"
-my_name <- NULL
-my_bd <- NULL
 
+# Format "Month/date". For example for date "January 9th", we write "01/09"
+my_name[3] <- "Hasibe"
+my_bd[3] <- "04/12"
+my_name[1] <- "Catlin"
+my_bd[1] <- "03/05"
+my_name[2] <- "matt"
+my_bd[2] <- "03/15"
+my_name[4] <- "Grace" 
+my_bd[4] <- "05/18"
 
 
 
@@ -22,11 +28,11 @@ df <- df[order(df$birthdate) , ]
 
 same_bday <- df$birthdate[duplicated(df$birthdate)]
 
-df %>% ggplot(mapping = aes(x = reorder(names, as.numeric(birthdate)), 
-                            y = birthdate ) ) + 
+df %>% ggplot(mapping = aes(x = reorder(names, as.numeric(birthdate)),
+                            y = birthdate ) ) +
         geom_point() +
-        xlab("Names") + 
-        ylab("Birthdates") +  
-        labs(title = "Figure 1: Birthday of Participants", 
+        xlab("Names") +
+        ylab("Birthdates") +
+        labs(title = "Figure 1: Birthday of Participants",
              subtitle = "Anybody with the same birthday?")+
         geom_hline(yintercept = same_bday, color = "red", show.legend=T)
