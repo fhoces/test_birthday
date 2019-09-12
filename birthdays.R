@@ -1,12 +1,18 @@
 library(ggplot2)
+library(magrittr)
 
 # What is your name?
 
 # When is your birthdate? Only Month and day.
 
 # Format "Month/date". For example for date "January 9th", we write "01/09"
-my_name <- Hasibe
-my_bd <- 04/12
+my_name[3] <- "Hasibe"
+my_bd[3] <- "04/12"
+my_name[1] <- "Catlin"
+my_bd[1] <- "03/05"
+my_name[2] <- "matt"
+my_bd[2] <- "03/15"
+
 
 
 
