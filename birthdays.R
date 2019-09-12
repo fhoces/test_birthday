@@ -1,8 +1,10 @@
 library(ggplot2)
 
-# What is your name?
+# What is your name? 
+Grace Morgan 
 
 # When is your birthdate? Only Month and day.
+05/18
 # Format "Month/date". For example for date "January 9th", we write "01/09"
 my_name <- NULL
 my_bd <- NULL
